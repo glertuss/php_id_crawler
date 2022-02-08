@@ -8,7 +8,7 @@ while(true){
 	
 	
 	
-	$homepage = file_get_contents('http://194.87.218.32/stat.php?id=31425527');
+	$homepage = file_get_contents('http://194.87.218.32/stat.php?id='.$id);
 	echo "200 OK\n";
 	$ned = 'Run';
 	$pos = strripos($homepage, $ned);
